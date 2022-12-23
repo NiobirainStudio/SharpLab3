@@ -1,0 +1,18 @@
+﻿@model SharpLab3.Models.Album
+@{
+	var imgLink = $"\\resources\\{Model.AlbumCover}"; 
+}
+
+<div class="card" style="width:10cm;margin:10px;">
+	<a asp-controller="Home" asp-action="Page" asp-route-id="@Model.Id">
+		<img src=@imgLink class="card-img-top">
+	</a>
+	<div class="card-body">
+		<a asp-controller="Home" asp-action="Page" asp-route-id="@Model.Id" style="text-decoration: none;">
+			<h3 class="card-title">@Model.Name</h3>
+		</a>
+		<h5 class="card-subtitle mb-2 text-muted">@Model.Artist</h5>
+		<h6 class="card-text mb-2 text-muted">@string.Join(", ", Model.Genres)</h6>
+		<p class="card-text">Released in @Model.ReleaseYear</p>
+	</div>
+</div>

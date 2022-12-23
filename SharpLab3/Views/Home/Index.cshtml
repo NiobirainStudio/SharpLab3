@@ -1,0 +1,28 @@
+﻿@using SharpLab3.Models
+@model List<Album>
+
+@{
+    ViewData["Title"] = "Albums";
+}
+
+<div class="row">
+	@Html.DisplayForModel()
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+	$('.card').hover(
+		function() {
+			$(this).animate({
+				marginTop: "-=1%",
+				marginBottom: "+=1%"
+			}, 200)
+		},
+		function() {
+			$(this).animate({
+				marginTop: "+=1%",
+				marginBottom: "-=1%"
+			})
+		}
+	)
+</script>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<albums>
+	<album>
+		<id>0</id>
+		<name>Sgt. Pepper's Lonely Hearts Club Band</name>
+		<artist>The Beatles</artist>
+		<genres>
+			<genre>Rock</genre>
+		</genres>
+		<releaseYear>1967</releaseYear>
+		<albumCover>lonley_hearts.jpg</albumCover>
+		<description>Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released on 26 May 1967, Sgt. Pepper is regarded by musicologists as an early concept album that advanced the roles of sound composition, extended form, psychedelic imagery, record sleeves, and the producer in popular music. The album had an immediate cross-generational impact and was associated with numerous touchstones of the era's youth culture, such as fashion, drugs, mysticism, and a sense of optimism and empowerment. Critics lauded the album for its innovations in songwriting, production and graphic design, for bridging a cultural divide between popular music and high art, and for reflecting the interests of contemporary youth and the counterculture.</description>
+	</album>
+	<album>
+		<id>1</id>
+		<name>Rubber Soul</name>
+		<artist>The Beatles</artist>
+		<genres>
+			<genre>Rock</genre>
+			<genre>Pop</genre>
+		</genres>
+		<releaseYear>1965</releaseYear>
+		<albumCover>rubber_soul.jpg</albumCover>
+		<description>Rubber Soul is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom, on EMI's Parlophone label, accompanied by the non-album double A-side single "Day Tripper" / "We Can Work It Out". The original North American release, issued by Capitol Records, contains ten of the fourteen songs and two tracks withheld from the band's Help! album. Rubber Soul was met with a highly favourable critical response and topped sales charts in Britain and the United States for several weeks.</description>
+	</album>
+	<album>
+		<id>2</id>
+		<name>Blonde on Blonde</name>
+		<artist>Bob Dylan</artist>
+		<genres>
+			<genre>Rock</genre>
+			<genre>Blues</genre>
+		</genres>
+		<releaseYear>1966</releaseYear>
+		<albumCover>b_on_b.jpg</albumCover>
+		<description>Blonde on Blonde is the seventh studio album by American singer-songwriter Bob Dylan, released as a double album on June 20, 1966, by Columbia Records. Recording sessions began in New York in October 1965 with numerous backing musicians, including members of Dylan's live backing band, the Hawks. Though sessions continued until January 1966, they yielded only one track that made it onto the final album—"One of Us Must Know (Sooner or Later)". At producer Bob Johnston's suggestion, Dylan, keyboardist Al Kooper, and guitarist Robbie Robertson moved to the CBS studios in Nashville, Tennessee. These sessions, augmented by some of Nashville's top session musicians, were more fruitful, and in February and March all the remaining songs for the album were recorded.</description>
+	</album>
+</albums>

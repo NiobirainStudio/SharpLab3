@@ -1,0 +1,21 @@
+﻿@using SharpLab3.Models
+@model Album
+
+@{
+    ViewData["Title"] = Model.Name;
+	var imgLink = $"\\resources\\{Model.AlbumCover}"; 
+}
+
+<div class="d-flex justify-content-center" style="height:100%; width:100%;">
+	<div class="card border-dark shadow w-50 m-2">
+		<img src=@imgLink class="card-img-top">
+		<div class="card-body">
+			<h3 class="card-title">@Model.Name</h3>
+			<h5 class="card-subtitle mb-2 text-muted">@Model.Artist</h5>
+			<h6 class="card-text mb-2 text-muted">@string.Join(", ", Model.Genres)</h6>
+			<p class="card-text">Released in @Model.ReleaseYear</p>
+			<hr />
+			<p class="card-text">@Model.Description</p>
+		</div>
+	</div>
+</div>
